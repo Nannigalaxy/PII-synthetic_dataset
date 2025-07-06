@@ -93,7 +93,3 @@ This dataset is released under the **MIT License**. You may use, modify, and dis
 ## 🙋‍♀️ Contributions
 
 If you'd like to expand this dataset (e.g., add new PII types, languages, or formats), feel free to open a pull request or suggest changes.
-
----
-
-Would you like me to generate a `LICENSE` file or help you publish this on GitHub or Hugging Face Datasets?
