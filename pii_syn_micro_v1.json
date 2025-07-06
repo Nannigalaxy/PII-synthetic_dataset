@@ -1,0 +1,2298 @@
+[
+  {
+    "text": "Jane Doe's SSN 521-44-9382 was mistakenly emailed to a third-party vendor by HR.",
+    "NER": [
+      {
+        "entity": "Jane Doe",
+        "label": "PERSON"
+      },
+      {
+        "entity": "521-44-9382",
+        "label": "SSN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Credit card number 4539 1488 0343 6467 was used by Michael Tran to purchase a laptop from TechDepot.",
+    "NER": [
+      {
+        "entity": "4539 1488 0343 6467",
+        "label": "CREDIT_CARD"
+      },
+      {
+        "entity": "Michael Tran",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Patient ID AHC-0933289 and insurance policy #88291-LK were attached to the wrong chart at Memorial Hospital.",
+    "NER": [
+      {
+        "entity": "AHC-0933289",
+        "label": "PATIENT_ID"
+      },
+      {
+        "entity": "#88291-LK",
+        "label": "INSURANCE_ID"
+      },
+      {
+        "entity": "Memorial Hospital",
+        "label": "ORG"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "During the audit, the account with IBAN GB29 NWBK 6016 1331 9268 19 was flagged for suspicious transactions.",
+    "NER": [
+      {
+        "entity": "GB29 NWBK 6016 1331 9268 19",
+        "label": "IBAN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Dr. Helena Shaw accidentally uploaded James Muller's passport number XG9382049 to the shared research drive.",
+    "NER": [
+      {
+        "entity": "Dr. Helena Shaw",
+        "label": "PERSON"
+      },
+      {
+        "entity": "James Muller",
+        "label": "PERSON"
+      },
+      {
+        "entity": "XG9382049",
+        "label": "PASSPORT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Login for the IT system was exposed: edward.kim@bytecore.com / W!nter2024.",
+    "NER": [
+      {
+        "entity": "edward.kim@bytecore.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "W!nter2024",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "IRS documents listed the Tax ID 94-2841935 under the company Rosemont Analytics.",
+    "NER": [
+      {
+        "entity": "94-2841935",
+        "label": "TAX_ID"
+      },
+      {
+        "entity": "Rosemont Analytics",
+        "label": "ORG"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Officer Barnes recorded license number D245-938-19-203 in the police report for the incident.",
+    "NER": [
+      {
+        "entity": "D245-938-19-203",
+        "label": "DRIVER_LICENSE"
+      },
+      {
+        "entity": "Officer Barnes",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Ashley Lim submitted her SSN 232-18-0912 and routing number 061000104 for direct deposit setup.",
+    "NER": [
+      {
+        "entity": "Ashley Lim",
+        "label": "PERSON"
+      },
+      {
+        "entity": "232-18-0912",
+        "label": "SSN"
+      },
+      {
+        "entity": "061000104",
+        "label": "ROUTING_NUMBER"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The leaked credentials included user lily.ross@viztra.org with password Qr7!dke#39.",
+    "NER": [
+      {
+        "entity": "lily.ross@viztra.org",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "Qr7!dke#39",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The financial statement listed bank account number 3847283911 belonging to Dennis Yu.",
+    "NER": [
+      {
+        "entity": "3847283911",
+        "label": "BANK_ACCOUNT"
+      },
+      {
+        "entity": "Dennis Yu",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "SSN 567-22-1099 and full name Karen Olivares were displayed on the unsecured PDF.",
+    "NER": [
+      {
+        "entity": "567-22-1099",
+        "label": "SSN"
+      },
+      {
+        "entity": "Karen Olivares",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Applicant Daniel Nwosu attached a scanned copy of passport number RX3901825 with his résumé.",
+    "NER": [
+      {
+        "entity": "Daniel Nwosu",
+        "label": "PERSON"
+      },
+      {
+        "entity": "RX3901825",
+        "label": "PASSPORT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The exported CSV included email r.lansing@shoresec.com and bank routing number 124003116.",
+    "NER": [
+      {
+        "entity": "r.lansing@shoresec.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "124003116",
+        "label": "ROUTING_NUMBER"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "In the database backup, driver’s license Y820-9283-4432 and SSN 788-91-2290 were found unencrypted.",
+    "NER": [
+      {
+        "entity": "Y820-9283-4432",
+        "label": "DRIVER_LICENSE"
+      },
+      {
+        "entity": "788-91-2290",
+        "label": "SSN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Employee portal leaked credentials: maria.alexei@jobport.net / SecureP@ss8901.",
+    "NER": [
+      {
+        "entity": "maria.alexei@jobport.net",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "SecureP@ss8901",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Medical billing error linked patient ID PHX-839221 with another record by mistake.",
+    "NER": [
+      {
+        "entity": "PHX-839221",
+        "label": "PATIENT_ID"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Greg Tanner’s TIN 11-4391209 appeared in a leaked tax spreadsheet.",
+    "NER": [
+      {
+        "entity": "Greg Tanner",
+        "label": "PERSON"
+      },
+      {
+        "entity": "11-4391209",
+        "label": "TAX_ID"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Backup files included Jane_Hollis@aethermail.io and her password !PurpleSky77.",
+    "NER": [
+      {
+        "entity": "Jane_Hollis@aethermail.io",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "!PurpleSky77",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "A report incorrectly listed passport number KR8129301 and SSN 311-67-0042 on a public document.",
+    "NER": [
+      {
+        "entity": "KR8129301",
+        "label": "PASSPORT"
+      },
+      {
+        "entity": "311-67-0042",
+        "label": "SSN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Marcus Nguyen's SSN 309-55-2184 was visible in the quarterly payroll export.",
+    "NER": [
+      {
+        "entity": "Marcus Nguyen",
+        "label": "PERSON"
+      },
+      {
+        "entity": "309-55-2184",
+        "label": "SSN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The tech support log contained the credit card 4716 9876 2234 1561 used by Samira El-Bashir.",
+    "NER": [
+      {
+        "entity": "4716 9876 2234 1561",
+        "label": "CREDIT_CARD"
+      },
+      {
+        "entity": "Samira El-Bashir",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Medical file #MXC-438220 and insurance number 77422-AZC were accidentally swapped between patients.",
+    "NER": [
+      {
+        "entity": "#MXC-438220",
+        "label": "PATIENT_ID"
+      },
+      {
+        "entity": "77422-AZC",
+        "label": "INSURANCE_ID"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "A transaction under IBAN FR76 3000 6000 0112 3456 7890 189 was flagged for irregular deposits.",
+    "NER": [
+      {
+        "entity": "FR76 3000 6000 0112 3456 7890 189",
+        "label": "IBAN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Passport number LP5048339 belonging to Arjun Mehta was included in the onboarding packet.",
+    "NER": [
+      {
+        "entity": "LP5048339",
+        "label": "PASSPORT"
+      },
+      {
+        "entity": "Arjun Mehta",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "User jessica.chan@securenet.io and password R3boot!Now appeared in a system debug log.",
+    "NER": [
+      {
+        "entity": "jessica.chan@securenet.io",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "R3boot!Now",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Acme Bank listed Tax ID 92-7315401 in its Q3 regulatory filings for auditing.",
+    "NER": [
+      {
+        "entity": "92-7315401",
+        "label": "TAX_ID"
+      },
+      {
+        "entity": "Acme Bank",
+        "label": "ORG"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Driver’s license K932-778-3840 for Hannah Riggs was mistakenly uploaded to the public folder.",
+    "NER": [
+      {
+        "entity": "K932-778-3840",
+        "label": "DRIVER_LICENSE"
+      },
+      {
+        "entity": "Hannah Riggs",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "During new hire processing, Matteo Ruiz submitted SSN 134-77-9981 and routing number 021000021.",
+    "NER": [
+      {
+        "entity": "Matteo Ruiz",
+        "label": "PERSON"
+      },
+      {
+        "entity": "134-77-9981",
+        "label": "SSN"
+      },
+      {
+        "entity": "021000021",
+        "label": "ROUTING_NUMBER"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "System breach exposed login martin.hayes@sysline.com with password 8nZ!kV4%beta.",
+    "NER": [
+      {
+        "entity": "martin.hayes@sysline.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "8nZ!kV4%beta",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Bank account 8721938475 registered under Chloe Mandel appeared twice in the invoice data.",
+    "NER": [
+      {
+        "entity": "8721938475",
+        "label": "BANK_ACCOUNT"
+      },
+      {
+        "entity": "Chloe Mandel",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The unsecured document listed SSN 411-89-2760 next to the name Julian DeWitt.",
+    "NER": [
+      {
+        "entity": "411-89-2760",
+        "label": "SSN"
+      },
+      {
+        "entity": "Julian DeWitt",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Applicant Saira Mendez uploaded a photo of passport number MP2198476 during remote verification.",
+    "NER": [
+      {
+        "entity": "Saira Mendez",
+        "label": "PERSON"
+      },
+      {
+        "entity": "MP2198476",
+        "label": "PASSPORT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "A plaintext file contained arun.desai@finops.org and his password !Open4Dayz.",
+    "NER": [
+      {
+        "entity": "arun.desai@finops.org",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "!Open4Dayz",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "License plate scan returned driver's license number Z391-772-1180 linked to Diana Wexler.",
+    "NER": [
+      {
+        "entity": "Z391-772-1180",
+        "label": "DRIVER_LICENSE"
+      },
+      {
+        "entity": "Diana Wexler",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Patient MRN ALPHA-442021 and insurance code ZK-21902 were updated in the oncology system.",
+    "NER": [
+      {
+        "entity": "ALPHA-442021",
+        "label": "PATIENT_ID"
+      },
+      {
+        "entity": "ZK-21902",
+        "label": "INSURANCE_ID"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Government tax form showed TIN 10-4938120 for Lucas Yang in the contractor registry.",
+    "NER": [
+      {
+        "entity": "10-4938120",
+        "label": "TAX_ID"
+      },
+      {
+        "entity": "Lucas Yang",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Email leak exposed sylvia.knox@edugate.edu and her login password Start@2025.",
+    "NER": [
+      {
+        "entity": "sylvia.knox@edugate.edu",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "Start@2025",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Data entry error showed bank account 7391028373 linked to two separate tax records.",
+    "NER": [
+      {
+        "entity": "7391028373",
+        "label": "BANK_ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "PDF report leaked passport ID QX2019843 and SSN 228-71-0053 under the same case file.",
+    "NER": [
+      {
+        "entity": "QX2019843",
+        "label": "PASSPORT"
+      },
+      {
+        "entity": "228-71-0053",
+        "label": "SSN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The urgent security incident involving a leaked database in the Finance Department at Global Trust Bank resulted in unauthorized access to employee records including confidential details for IT specialist Robert Chen.",
+    "NER": [
+      {
+        "entity": "Robert Chen",
+        "label": "PERSON"
+      },
+      {
+        "entity": "Finance Department",
+        "label": "ORG"
+      },
+      {
+        "entity": "Global Trust Bank",
+        "label": "ORG"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "HR Manager Lisa Johnson confirmed the sensitive data breach, specifically mentioning employee Brenda Carter's SSN 937-42-6810 and her temporary bank account number NL55TRIO012345678 for payroll processing.",
+    "NER": [
+      {
+        "entity": "Lisa Johnson",
+        "label": "PERSON"
+      },
+      {
+        "entity": "Brenda Carter",
+        "label": "PERSON"
+      },
+      {
+        "entity": "HR Manager",
+        "label": "TITLE"
+      },
+      {
+        "entity": "937-42-6810",
+        "label": "SSN"
+      },
+      {
+        "=": "NL55TRIO012345678",
+        "label": "IBAN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "An investigation into suspicious login activity found UserID 'secure_credentials' with password 'B@nZes94!', attempting to access confidential financial data, including account details like 3012345678 for Johnathan Doe.",
+    "NER": [
+      {
+        "entity": "'secure_credentials'",
+        "label": "USERID"
+      },
+      {
+        "entity": "'B@nZes94!'",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "3012345678",
+        "label": "ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The legal firm Sterling & Associates reported a sensitive data leak concerning client Edward Thompson's case file. His passport number EP564912 and driver license ID 567-890-123 were exposed in an encrypted communication channel.",
+    "NER": [
+      {
+        "entity": "Sterling & Associates",
+        "label": "ORG"
+      },
+      {
+        "entity": "Edward Thompson",
+        "label": "PERSON"
+      },
+      {
+        "entity": "EP564912",
+        "label": "PASSPORT"
+      },
+      {
+        "entity": "567-890-123",
+        "label": "LICENSE"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Accessing the patient records database, system administrator Maria Lopez retrieved information for Patient ID 89456L including their Medicare tax ID number XXX00-S12-XXXX and home address.",
+    "NER": [
+      {
+        "entity": "Maria Lopez",
+        "label": "PERSON"
+      },
+      {
+        "entity": "system administrator",
+        "label": "TITLE"
+      },
+      {
+        "entity": "Patient ID 89456L",
+        "label": "PID"
+      },
+      {
+        "entity": "XXX00-S12-XXXX",
+        "label": "TAXID"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The internal security team discovered a critical vulnerability in the billing system at United Health Providers, leading to potential exposure of sensitive personal info including credit card details like 4987 XXXX 3456 for insured individual Sarah Williams.",
+    "NER": [
+      {
+        "entity": "United Health Providers",
+        "label": "ORG"
+      },
+      {
+        "entity": "Sarah Williams",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Government contractor David Miller submitted a request regarding the exposure of his federal tax ID number 91-3456789 and social security card details (XXX-XX-2409) while troubleshooting an authentication service failure.",
+    "NER": [
+      {
+        "entity": "David Miller",
+        "label": "PERSON"
+      },
+      {
+        "entity": "Government contractor",
+        "label": "TITLE"
+      },
+      {
+        "entity": "91-3456789",
+        "label": "TAXID"
+      },
+      {
+        "entity": "XXX-XX-2409",
+        "label": "SSN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The incident response team at SecureNet Corp is analyzing the data exfiltration event that compromised executive John Peterson's login credentials: email john.peterson@securenet.com with password 'WinterIsComing!$'",
+    "NER": [
+      {
+        "entity": "SecureNet Corp",
+        "label": "ORG"
+      },
+      {
+        "entity": "executive",
+        "label": "TITLE"
+      },
+      {
+        "entity": "John Peterson",
+        "label": "PERSON"
+      },
+      {
+        "entity": "john.peterson@securenet.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "'WinterIsComing!$'",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "A major breach at TechSupport Dynamics involved the exposure of sensitive information for senior developer Alex Rivera, including his driver license number 123-456789 and last four digits of SSN ***-***-****.",
+    "NER": [
+      {
+        "entity": "TechSupport Dynamics",
+        "label": "ORG"
+      },
+      {
+        "entity": "Alex Rivera",
+        "label": "PERSON"
+      },
+      {
+        "entity": "senior developer",
+        "label": "TITLE"
+      },
+      {
+        "entity": "123-456789",
+        "label": "LICENSE"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Processing the insurance claim for policyholder Michael Anderson, claims adjuster Samantha Brown noted his existing account balance was $10,230.45 and highlighted that his tax ID number 22-3456789 might be visible in logs.",
+    "NER": [
+      {
+        "entity": "Samantha Brown",
+        "label": "PERSON"
+      },
+      {
+        "entity": "claims adjuster",
+        "label": "TITLE"
+      },
+      {
+        "entity": "Michael Anderson",
+        "label": "PERSON"
+      },
+      {
+        "entity": "22-3456789",
+        "label": "TAXID"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "An urgent alert was issued by the SEC regarding suspicious activity on John Doe's account at First National Bank; his checking account number ending with 7854 and routing number for wire transfer CH29309... were flagged, along with a transaction involving credit card XXXX-XXXX-XXXX-1234.",
+    "NER": [
+      {
+        "entity": "John Doe",
+        "label": "PERSON"
+      },
+      {
+        "entity": "First National Bank",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "SEC",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "7854",
+        "label": "BANK_ACCOUNT_NUM"
+      },
+      {
+        "entity": "CH29309...",
+        "label": "IBAN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "HR is notifying affected employees regarding the exposure of private information in our payroll system; employee ID 127854, driver's license number for verification purposes DL:AB12-34CD-56EF, and SSN XXX-XX-XXXX were inadvertently listed on a public-facing application.",
+    "NER": [
+      {
+        "entity": "HR",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "payroll system",
+        "label": "SYSTEM"
+      },
+      {
+        "entity": "127854",
+        "label": "EMPLOYEE_ID"
+      },
+      {
+        "entity": "DL:AB12-34CD-56EF",
+        "label": "DRIVER_LICENSE_NUM"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The legal department received a subpoena demanding access to records for James Peterson, including his passport number P4789023X and confidential tax ID ATIN: 987654321A along with his login details used in the case portal.",
+    "NER": [
+      {
+        "entity": "James Peterson",
+        "label": "PERSON"
+      },
+      {
+        "entity": "legal department",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "case portal",
+        "label": "SYSTEM"
+      },
+      {
+        "entity": "P4789023X",
+        "label": "PASSPORT_NUM"
+      },
+      {
+        "entity": "ATIN: 987654321A",
+        "label": "TAX_ID"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The IT security team detected unusual login attempts to the corporate VPN using credentials from a compromised email account; username was info@secureinc.com, and password attempt string revealed: 'SummerVacation2024!', raising concerns about potential data exfiltration.",
+    "NER": [
+      {
+        "entity": "IT security team",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "corporate VPN",
+        "label": "SYSTEM"
+      },
+      {
+        "entity": "info@secureinc.com",
+        "label": "EMAIL"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "A fraudulent insurance claim submitted by Policyholder ID 7654321 was investigated; the associated driver's license number XXX-XXXXXXX and SSN of the insured party, along with their last payment receipt showing account details ending in 9876, are under review for inconsistencies.",
+    "NER": [
+      {
+        "entity": "Insurance Claim",
+        "label": "MISC"
+      },
+      {
+        "entity": "Policyholder ID 7654321",
+        "label": "INSURANCE_POLICY_NUM"
+      },
+      {
+        "entity": "driver's license number XXX-XXXXXXX",
+        "label": "DRIVER_LICENSE_NUM"
+      },
+      {
+        "entity": "SSN ...",
+        "label": "SSN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The Internal Revenue Service flagged a discrepancy in tax filing data for the individual registered under SSN 987-XX-XXXX, with their latest W-2 form mistakenly exposing the account number ending in *456 for direct deposit.",
+    "NER": [
+      {
+        "entity": "Internal Revenue Service",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "SSN 987-XX-XXXX",
+        "label": "SSN"
+      },
+      {
+        "entity": "*456",
+        "label": "BANK_ACCOUNT_NUM"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Due to a system glitch in the customer portal, sensitive data belonging to account holder Emily Johnson was partially exposed; this included her credit card number XXXX-XXXX-XXXX-9876 (masked) and passport details for international transaction verification.",
+    "NER": [
+      {
+        "entity": "customer portal",
+        "label": "SYSTEM"
+      },
+      {
+        "entity": "Emily Johnson",
+        "label": "PERSON"
+      },
+      {
+        "entity": "EmilyJohnson@banksecure.co.uk",
+        "label": "EMAIL"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "An alert from the fraud detection system at Global Finance Corp identified a suspicious transaction linked to customer Jane Smith's account; it involved her driver's license number DL:US98765432 and provided payment details using credit card XXXX-XXXX-XXXX-1234.",
+    "NER": [
+      {
+        "entity": "fraud detection system",
+        "label": "SYSTEM"
+      },
+      {
+        "entity": "Global Finance Corp",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "Jane Smith",
+        "label": "PERSON"
+      },
+      {
+        "entity": "DL:US98765432",
+        "label": "DRIVER_LICENSE_NUM"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The medical records department at City Hospital urgently needs to secure PHI data; patient ID 108965 involved in a recent incident had their Social Security Number listed alongside account access credentials for portal login.",
+    "NER": [
+      {
+        "entity": "medical records department",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "City Hospital",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "patient ID 108965",
+        "label": "PATIENT_ID"
+      },
+      {
+        "entity": "XXX-XX-XXXXX",
+        "label": "SSN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Upon discovery of the data leak incident at State Records Management, all login credentials for affected employee accounts must be reset immediately; including username jsmith@strmgmt.gov and password 'LegacyAccess#2023' to prevent unauthorized access.",
+    "NER": [
+      {
+        "entity": "State Records Management",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "jsmith@strmgmt.gov",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "'LegacyAccess#2023'",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The DoE office requires immediate action regarding the leaked personnel files; a login attempt was traced to employee email n.simpson@doe.gov with password 'AtomicBomb9', and details included SSN 123-45-6789 for verification.",
+    "NER": [
+      {
+        "entity": "DoE office",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "n.simpson@doe.gov",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "'AtomicBomb9'",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "A recent security audit found PII exposed in the archived documents section of our mainframe; specifically, login details for system administrator root.access@criticalnet.org and password 'Root2024$Secure' were found alongside patient insurance policy number CP198753.",
+    "NER": [
+      {
+        "entity": "security audit",
+        "label": "EVENT"
+      },
+      {
+        "entity": "mainframe",
+        "label": "SYSTEM"
+      },
+      {
+        "entity": "system administrator root.access@criticalnet.org",
+        "label": "PERSON"
+      },
+      {
+        "entity": "'Root2024$Secure'",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The incident response team at TechGuard is investigating the breach that exposed confidential information for user login: Alex Brown's email was alex.brown@techguard.com and password was 'KnightRider!', along with his passport number P12345678.",
+    "NER": [
+      {
+        "entity": "incident response team",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "TechGuard",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "Alex Brown",
+        "label": "PERSON"
+      },
+      {
+        "entity": "alex.brown@techguard.com",
+        "label": "EMAIL"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "An anonymous tip reported the misuse of credentials on a government database; login attempted via email gov.user.temp@email.gov with password 'TempGov2023!' and resulted in access to SSN records including 987-XX-XXXXX.",
+    "NER": [
+      {
+        "entity": "government database",
+        "label": "SYSTEM"
+      },
+      {
+        "entity": "gov.user.temp@email.gov",
+        "label": "EMAIL"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The data loss prevention system flagged an email containing sensitive information from the finance department; it was sent to taylor.reed@finco.global and included credentials for a secure file transfer portal, along with driver's license number DL:FL5678901.",
+    "NER": [
+      {
+        "entity": "data loss prevention system",
+        "label": "SYSTEM"
+      },
+      {
+        "entity": "finance department",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "taylor.reed@finco.global",
+        "label": "EMAIL"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Law enforcement requested immediate access to records for suspect identification number 987654321-REV, including their driver's license number and login credentials used in the dark web marketplace transaction.",
+    "NER": [
+      {
+        "entity": "Law enforcement",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "suspect identification number 987654321-REV",
+        "label": "POLICE_ID_NUM"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The HR database suffered an unauthorized access where employee credentials were stolen; the compromised email was hradmin@companyname.org and password 'AdminPortalSummer2023' allowed extraction of SSN 987-XX-XXXXX from multiple records.",
+    "NER": [
+      {
+        "entity": "HR database",
+        "label": "SYSTEM"
+      },
+      {
+        "entity": "hradmin@companyname.org",
+        "label": "EMAIL"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "A report of identity theft filed by the victim, registration number ABC123XYZ for their account, included details from a stolen credit card XXXX-XXXX-XXXX-9876 and driver's license data DL:TX0000001.",
+    "NER": [
+      {
+        "entity": "identity theft report",
+        "label": "MISC"
+      },
+      {
+        "entity": "victim registration number ABC123XYZ",
+        "label": "ACCOUNT_NUM"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The customer service team confirmed that the account linked to user ID 54321 was compromised; they advised resetting credentials for email myaccount@serviceprovider.org and password 'SupportAgent2024', preventing further access including SSN disclosure.",
+    "NER": [
+      {
+        "entity": "customer service team",
+        "label": "ORGANIZATION"
+      },
+      {
+        "entity": "user ID 54321",
+        "label": "USER_ID"
+      },
+      {
+        "entity": "myaccount@serviceprovider.org",
+        "label": "EMAIL"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The HR department urgently requested the finance team to review Johnathan Doe's new hire packet, which included his SSN 123-45-6789 and temporary bank account details ending with *456 for Chase. They also needed confirmation of his emergency contact information: listed as Jane Smith (phone: +1-555-0100) but the actual driver's license number was provided by a colleague who thought it was part of standard verification.",
+    "NER": [
+      {
+        "entity": "Johnathan Doe",
+        "label": "PERSON"
+      },
+      {
+        "entity": "123-45-6789",
+        "label": "SSN"
+      },
+      {
+        "entity": "Chase",
+        "label": "BANK"
+      },
+      {
+        "entity": "*456",
+        "label": "ROUTING_NUMBER"
+      },
+      {
+        "entity": "Jane Smith",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "During the tax filing audit, the accountant discovered discrepancies related to Emily Johnson's federal tax ID number 987-65-4321 and her state income tax information. Further investigation revealed that she had recently logged into several government portals using credentials like emily.johnson@mail.com / TaxPass987 or gov_emily@tax.gov / SecureLogin! , which were left unencrypted.",
+    "NER": [
+      {
+        "entity": "Emily Johnson",
+        "label": "PERSON"
+      },
+      {
+        "entity": "987-65-4321",
+        "label": "TAX_ID"
+      },
+      {
+        "entity": "*TaxPass987",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "*SecureLogin!",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "emily.johnson@mail.com",
+        "label": "EMAIL"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The cybersecurity incident response team was alerted to a major data breach at SecureData Inc. involving the exposure of employee records, including Sarah Williams' SSN 555-98-7654 and her associated bank account number SE32CRBC0100601211501234 under Bank Swift services. Login credentials like user@securedata.com / CybPass! were also found compromised.",
+    "NER": [
+      {
+        "entity": "Sarah Williams",
+        "label": "PERSON"
+      },
+      {
+        "entity": "SE32CRBC0100601211501234",
+        "label": "IBAN"
+      },
+      {
+        "entity": "CybPass!",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "*555-98-7654",
+        "label": "SSN"
+      },
+      {
+        "entity": "SecureData Inc.",
+        "label": "ORG"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "While investigating a fraudulent insurance claim submitted by Michael Brown, the fraud analyst retrieved his patient ID from the hospital database: PID 897654321. Cross-referencing showed potential misuse involving financial details like credit card number ending in *456 for Visa transactions and bank routing info obtained during an emergency fund transfer.",
+    "NER": [
+      {
+        "entity": "Michael Brown",
+        "label": "PERSON"
+      },
+      {
+        "entity": "*PID 897654321*",
+        "label": "PATIENT_ID"
+      },
+      {
+        "entity": "*routing_info_here*",
+        "label": "ROUTING_NUMBER"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "A routine check by the data protection officer at European Bank flagged multiple sensitive exposures via internal chat logs. One message contained Maria Garcia's passport number PE12345678 and her login details for online banking: email maria.garcia@europeanbank.com, password SecureLogin! . Another user mentioned her tax ID GB987654321.",
+    "NER": [
+      {
+        "entity": "Maria Garcia",
+        "label": "PERSON"
+      },
+      {
+        "entity": "GB987654321",
+        "label": "TAX_ID"
+      },
+      {
+        "entity": "maria.garcia@europeanbank.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "*SecureLogin!*",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Law enforcement officers obtained a warrant for the premises of TechCorp Solutions, Inc., following an alleged data breach incident. Among the seized documents were internal payroll records containing David Miller's SSN 123-45-6789 and his direct deposit bank account number ABC01234567 with routing *987 . Also found was a log file mentioning credentials like david@techcorp.com / AccessNow! used for system access.",
+    "NER": [
+      {
+        "entity": "David Miller",
+        "label": "PERSON"
+      },
+      {
+        "entity": "*routing* 987*",
+        "label": "ROUTING_NUMBER"
+      },
+      {
+        "entity": "*ABC01234567*",
+        "label": "BANK_ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "A data subject access request from Lisa Chen required the health information system to retrieve her PHI records. This involved providing her with details including medical record number MRN_987654321, and upon cross-reference, also exposed her driver's license number 12-345-678 for verification purposes against a fictional credit card ending *111.",
+    "NER": [
+      {
+        "entity": "Lisa Chen",
+        "label": "PERSON"
+      },
+      {
+        "entity": "MRN_987654321",
+        "label": "MEDICAL_RECORD"
+      },
+      {
+        "entity": "*12-345-678*",
+        "label": "DRIVERS_LICENSE"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The internal security team investigated a suspicious transaction flagged by the fraud monitoring system at Global Financial Services. The details included account owner Thomas Wilson, his SSN 900-12-3456, and linked bank details: routing *XYZ*, transit number TXY789 for accounts like AccountNo_55555555 or IBAN GBXXXXXXXXXXXXXXX.",
+    "NER": [
+      {
+        "entity": "Thomas Wilson",
+        "label": "PERSON"
+      },
+      {
+        "entity": "*900-12-3456*",
+        "label": "SSN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Responding to a customer service inquiry regarding account verification for James Anderson, the support agent provided him with his existing bank account number 123456789 and routing number *900 . They also confirmed his driver's license was indeed registered under that name but couldn't retrieve his passport without additional security clearance.",
+    "NER": [
+      {
+        "entity": "James Anderson",
+        "label": "PERSON"
+      },
+      {
+        "entity": "*123456789*",
+        "label": "BANK_ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "During the annual compliance audit for Healthcare Providers Ltd., auditors examined patient consent forms and billing records. One record contained patient ID 100-DOC-888, their associated tax number IT23456789, and financial details like a credit card used at an urgent care facility: ending in *111 for American Express.",
+    "NER": [
+      {
+        "entity": "Patient ID",
+        "label": "PATIENT_ID"
+      },
+      {
+        "entity": "*IT23456789*",
+        "label": "TAX_ID"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The legal department received a subpoena requesting documents related to the employment contract of Robert Davis. Included in these were his Social Security number 123-45-6789, driver's license number NYDL-12345678A, and bank account details used for payroll processing: IBAN GB12345678901234567890.",
+    "NER": [
+      {
+        "entity": "Robert Davis",
+        "label": "PERSON"
+      },
+      {
+        "entity": "*NYDL-12345678A*",
+        "label": "DRIVERS_LICENSE"
+      },
+      {
+        "entity": "*GB12345678901234567890*",
+        "label": "IBAN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "An internal IT audit discovered that a junior developer had committed code containing sensitive data. The commit included hard-coded credentials for accessing the database: username dev_user@company.com, password DevPass123! , alongside details like employee login ID for Sarah Thompson and her associated SSN 987-65-4321.",
+    "NER": [
+      {
+        "entity": "dev_user@company.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "*DevPass123!*",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "*SSN* 987-65-4321*",
+        "label": "SSN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "During the process of reimbursing travel expenses for Mark Taylor, the finance department needed his original receipts and also verified details from government systems. This involved cross-checking his passport number US-PP-987654321 against a booking record containing sensitive credit card information ending in *456.",
+    "NER": [
+      {
+        "entity": "Mark Taylor",
+        "label": "PERSON"
+      },
+      {
+        "entity": "*US-PP-987654321*",
+        "label": "PASSPORT"
+      },
+      {
+        "entity": "*credit_card_ending_*456*_here*",
+        "label": "CREDIT_CARD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The government agency requested immediate access to the citizen's personal data file, which contained their SSN 900-12-3456 and multiple bank account details (IBANs) for tax purposes. One was GB-Account-7890123456, another was DE-Bank-XYZ*123 , along with a driver's license number from their state database.",
+    "NER": [
+      {
+        "entity": "citizen",
+        "label": "PERSON"
+      },
+      {
+        "entity": "*DE-Bank-XYZ*123*",
+        "label": "BANK_ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "In the aftermath of a suspected data breach at the corporate office, the incident response plan mandated reviewing all access logs and communication histories. One email thread contained an employee's login credentials: user@emailcompany.com / SecuredLogin! , along with their SSN 123-45-6789 for identity verification.",
+    "NER": [
+      {
+        "entity": "*user@emailcompany.com*",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "*SecuredLogin!*",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The insurance company representative, handling claims for Karen Lee, discovered inconsistencies in her application. They requested additional verification including her driver's license number CA_DL_98765432 and tax ID information 123-45-6789 before proceeding with the sensitive bank account details linked to her payment plan.",
+    "NER": [
+      {
+        "entity": "*CA_DL_98765432*",
+        "label": "DRIVERS_LICENSE"
+      },
+      {
+        "entity": "*tax_id_here* 123-45-6789",
+        "label": "TAX_ID"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "A routine security scan at the financial institution flagged an internal document with hard-coded credentials: login for admin_user@finco.com and password FinanceSec! . The system also detected a potential exposure of account holder data, including SSN 123-45-6789 and IBAN GB-Acc-09876543.",
+    "NER": [
+      {
+        "entity": "*admin_user@finco.com*",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "*FinanceSec!*",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The court case involving data privacy violations brought documents detailing the company's negligence. One exhibit showed employee files mistakenly shared, containing names and associated PII like SSN 123-45-6789 for Robert Jones, and driver's license numbers (e.g., TX_DL_012345) from a compromised personnel database.",
+    "NER": [
+      {
+        "entity": "*SSN* 123-45-6789*",
+        "label": "SSN"
+      },
+      {
+        "entity": "*TX_DL_012345*",
+        "label": "DRIVERS_LICENSE"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The data recovery process for a compromised customer account involved retrieving login details. The system identified the associated email address user@servicecustomer.com and plaintext password DataRecov! . Further investigation uncovered linked bank accounts (checking: *123456789*, savings: ABCDEFGHI-123) and driver's license number 1234567890.",
+    "NER": [
+      {
+        "entity": "*user@servicecustomer.com*",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "*checking_account* *123456789*",
+        "label": "BANK_ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "A legal team preparing a case related to identity theft retrieved documents containing the victim's details. The evidence included their passport number DE-PP-ABCD123EFG and tax identification number 987654321, alongside sensitive financial information like credit card ending *456 for transactions.",
+    "NER": [
+      {
+        "entity": "*DE-PP-ABCD123EFG*",
+        "label": "PASSPORT"
+      },
+      {
+        "entity": "*tax_id* 987654321",
+        "label": "TAX_ID"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The hospital billing department encountered an issue resolving payment for Patient Identifier PID_12345XYZ, whose records were incomplete. They needed to cross-reference using additional details like SSN 900-12-3456 or driver's license number NYDL-87654321A and contact their bank regarding an account flagged with AccountNo_ABCDEFGHI-JKL.",
+    "NER": [
+      {
+        "entity": "*PID_12345XYZ*",
+        "label": "PATIENT_ID"
+      },
+      {
+        "entity": "*SSN* 900-12-3456",
+        "label": "SSN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Upon investigation of the recent cyber incident at Axis Bank in Mumbai, our team recovered sensitive credentials from an unsecured SQL database: The email address 'rahul.sharma@axisbank.co.in' was found alongside its associated password 'B@np0rt#24', exposing the account details for NEFT transfer initiated by customer Niranjan Mehta with account number SBIN012345678901.",
+    "NER": [
+      {
+        "entity": "rahul.sharma@axisbank.co.in",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "B@np0rt#24",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "SBIN012345678901",
+        "label": "ACCOUNT_NUMBER"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The data forensic team at the Reserve Bank of India uncovered a critical exposure in their internal database during an audit: The application form contained Mr. Sanjay Patel's PAN card number 'ABPCJ4567R' and his 10-digit mobile number, which should never be stored alongside sensitive financial details like the bank account IBAN 'IN38 RTEB0123456789' used for receiving loan disbursements.",
+    "NER": [
+      {
+        "entity": "ABPCJ4567R",
+        "label": "PAN"
+      },
+      {
+        "entity": "Sanjay Patel",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "In the data breach incident analysis for ICICI Prudential Life Insurance, it was discovered that a branch manager's confidential login details were accessed: The username 'Manager_ICICI@email.com' and password 'SecurePass@2023*' granted access to the policy database where sensitive information like Jagan Kumar's Voter ID 'VOTER1985746321' and his bank account number for premium payments (HDFC0987654321) were stored.",
+    "NER": [
+      {
+        "entity": "Manager_ICICI@email.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "SecurePass@2023*",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "Jagan Kumar",
+        "label": "PERSON"
+      },
+      {
+        "entity": "VOTER1985746321",
+        "label": "VOTER_ID"
+      },
+      {
+        "entity": "HDFC0983574621",
+        "label": "ACCOUNT_NUMBER"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The leaked data from the HDFC Bank customer portal incident included multiple sensitive elements: A user attempted a transaction using credit card number '4532************7890' (valid expiry 05/25) and provided their account details - Account Number 'HDFC012345678901', IFSC Code 'HDFCANPR001'. Additionally, the document contained Ramesh Krishnan's Aadhar number '987654321012' and his passport number 'A12345678'.",
+    "NER": [
+      {
+        "entity": "Ramesh Krishnan",
+        "label": "PERSON"
+      },
+      {
+        "entity": "4532************7890",
+        "label": "CREDIT_CARD"
+      },
+      {
+        "entity": "HDFCANPR001",
+        "label": "ROUTING_NUMBER"
+      },
+      {
+        "entity": "HDFC012345678901",
+        "label": "ACCOUNT_NUMBER"
+      },
+      {
+        "entity": "A12345678",
+        "label": "PASSPORT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "While investigating the unauthorized access to SBI's online portal, security personnel found evidence of a leaked tax file: The PAN number 'PRCPC9876F' and Tax Identification Number 'TINXXXXX123456' were visible. This incident was linked to the fraudulent transaction attempt involving account holder Ananya Bose's savings bank account details - Account No. 'SBIN012345678901', MICR Code 'SBINANPR00000000'.",
+    "NER": [
+      {
+        "entity": "PRCPC9876F",
+        "label": "PAN"
+      },
+      {
+        "entity": "TINXXXXX123456",
+        "label": "TAX_ID"
+      },
+      {
+        "entity": "Ananya Bose",
+        "label": "PERSON"
+      },
+      {
+        "entity": "SBIN012345678901",
+        "label": "ACCOUNT_NUMBER"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "In the context of our financial compliance review, we encountered a scenario where login credentials were mistakenly embedded in source code: The system log showed an attempt to recover 'user@qf.gov.in' and its password 'Compliance123!', which granted access to confidential government database information. This included sensitive details for individual Mr. Vikram Singh - his Aadhar number '98765400000071', passport 'VXG12345678', and the PAN card number 'VIKRSINGH789XP'.",
+    "NER": [
+      {
+        "entity": "user@qf.gov.in",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "Compliance123!",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "Vikram Singh",
+        "label": "PERSON"
+      },
+      {
+        "entity": "98765400000071",
+        "label": "AADHAR"
+      },
+      {
+        "entity": "VXG12345678",
+        "label": "PASSPORT"
+      },
+      {
+        "entity": "VIKRSINGH789XP",
+        "label": "PAN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The recent data leak incident at the National Payments Corporation of India (NPCI) involved unencrypted transmission logs: We recovered a sensitive transaction record showing an attempted UPI payment from 'rahul.upi@oksbi' with password 'UPIsecure2024#' and details for recipient Deepak Malhotra - his Aadhar number '98765432100001', bank account IBAN 'IN60 SBK000000000000000A', and voter ID 'VOTER2024567890'.",
+    "NER": [
+      {
+        "entity": "rahul.upi@oksbi",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "UPIsecure2024#",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "Deepak Malhotra",
+        "label": "PERSON"
+      },
+      {
+        "entity": "98765432100001",
+        "label": "AADHAR"
+      },
+      {
+        "entity": "IN60 SBK000000000000000A",
+        "label": "IBAN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "During the forensic examination of leaked data from a government social security portal, several high-risk PII elements were identified: The email 'beneficiary@sservices.gov.in' and its password 'SSPortalAccess#' allowed access. This transaction file contained sensitive personal details for Mr. Ajay Kumar - his PAN number 'AJKMR2345P', 10-digit Voter ID 'VOTER7890123456', and the bank account number linked to his pension (ACCNUM: PUNJABNRA7890123456).",
+    "NER": [
+      {
+        "entity": "beneficiary@sservices.gov.in",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "SSPortalAccess#",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "Ajay Kumar",
+        "label": "PERSON"
+      },
+      {
+        "entity": "AJKMR2345P",
+        "label": "PAN"
+      },
+      {
+        "entity": "VOTER7890123456",
+        "label": "VOTER_ID"
+      },
+      {
+        "entity": "PUNJABNRA7890123456",
+        "label": "ACCOUNT_NUMBER"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The internal security breach at Kotak Mahindra Bank revealed exposed credentials in the NEFT processing system: The login for 'neft_ops@kmb.com' was 'NetWork_789', and its password was 'KotakNXTSecure2024!'. This access level should only view transaction details like recipient account number 'SBIN567890123456' (routing HDFC0000000) for immediate money transfer authorizations.",
+    "NER": [
+      {
+        "entity": "neft_ops@kmb.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "NetWork_789",
+        "label": "USERNAME"
+      },
+      {
+        "entity": "KotakNXTSecure2024!",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "SBIN567890123456",
+        "label": "ACCOUNT_NUMBER"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "In the incident response for data exfiltration from an unsecured FTP server at LIC headquarters in Delhi, we recovered sensitive employee records: The email 'employee@licindia.com' was accessed with password 'LICData2024#' and contained personal details including Ananya Sharma's Aadhar number '98765432112319', PAN 'ANSHRMAA789XY', voter ID, and bank account information for direct salary payments (ACC: SBI0123456789).",
+    "NER": [
+      {
+        "entity": "employee@licindia.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "LICData2024#",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "Ananya Sharma",
+        "label": "PERSON"
+      },
+      {
+        "entity": "98765432112319",
+        "label": "AADHAR"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The security audit uncovered a critical vulnerability in the internal messaging system of HDFC Bank's IT department: A message contained sensitive login credentials for accessing server logs - User 'it_security@hdfc.com', password 'ServerPass_HDFC2024!'. This exposed information included employee Pranav Desai's Aadhar number '98765432100002' and his driver's license number 'DL: DLUPPRAN098765' used for official vehicle access.",
+    "NER": [
+      {
+        "entity": "it_security@hdfc.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "ServerPass_HDFC2024!",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "Pranav Desai",
+        "label": "PERSON"
+      },
+      {
+        "entity": "98765432100002",
+        "label": "AADHAR"
+      },
+      {
+        "entity": "DLUPPRAN098765",
+        "label": "DRIVER_LICENSE"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Analyzing the data breach at SBI's mobile app backend revealed exposed customer details via API logs: The email 'user@sbicard.com' and password 'SBIAppSecure2024!' were found. This transaction involved customer Meera Joshi using her credit card for an online purchase (****7890, expiry 12/25) and provided bank account number details in plaintext.",
+    "NER": [
+      {
+        "entity": "user@sbicard.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "SBIAppSecure2024!",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "Meera Joshi",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "During the investigation of data leakage from a government portal related to tax filing, sensitive information was found in plain text logs: The PAN number 'SPRINTZ45678' and email address 'taxpayer@aadharindia.com' were accessible. This incident provided clues about Mr. Rohan Trivedi's bank account details used for direct deposit of refunds (ACC: ING1234567890) and his voter ID.",
+    "NER": [
+      {
+        "entity": "SPRINTZ45678",
+        "label": "PAN"
+      },
+      {
+        "entity": "taxpayer@aadharindia.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "ING1234567890",
+        "label": "ACCOUNT_NUMBER"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The data leak investigation at the Income Tax Department involved sensitive taxpayer information found in unsecured database backups: The PAN 'ABCDEZ1234F', Aadhar number '12345678901204', and Voter ID were visible. This was linked to transaction details for Mr. Vikas Malhotra, including his bank account IBAN 'IN60 ITDB000000000000XA' used for tax payment processing.",
+    "NER": [
+      {
+        "entity": "ABCDEZ1234F",
+        "label": "PAN"
+      },
+      {
+        "entity": "12345678901204",
+        "label": "AADHAR"
+      },
+      {
+        "entity": "IN60 ITDB000000000000XA",
+        "label": "IBAN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "In the aftermath of the data breach at Axis Bank's loan processing center, sensitive employee credentials were exposed: The login for 'loan_approver@axis.com' was found with password 'Loan24Access#'. This access level should have handled customer details like Mr. Alok Verma's PAN card number 'ALOVMR3456P', his 10-digit Voter ID, and the bank account details (SBINXXXXXX) for direct loan disbursement.",
+    "NER": [
+      {
+        "entity": "loan_approver@axis.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "Loan24Access#",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "Alok Verma",
+        "label": "PERSON"
+      },
+      {
+        "entity": "ALOVMR3456P",
+        "label": "PAN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The security incident at the National Stock Exchange (NSE) involved leaked credentials and sensitive client data: The email 'client_support@nseindia.com' was accessed with password 'NSEClientSecure2024!', revealing details for Mr. Sunil Reddy - his Aadhar number '98765432100003', PAN card 'SUNILREDDY789TK', and bank account information (ACC: HDFC45678901) used for trading refunds.",
+    "NER": [
+      {
+        "entity": "client_support@nseindia.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "NSEClientSecure2024!",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "Sunil Reddy",
+        "label": "PERSON"
+      },
+      {
+        "entity": "98765432100003",
+        "label": "AADHAR"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "During the forensic response to data exfiltration from an internal cloud storage service at SBI, we found sensitive employee login credentials: The user 'cloud_admin@sbicloud.com' had password 'CloudAdmin_Secure2024!'. This exposed information included personal details like Mr. Ravi Prakash's PAN number 'RAVMAN789KL', his Voter ID, and driver's license number for official travel expenses (DL: DLUPRRAVI123456).",
+    "NER": [
+      {
+        "entity": "cloud_admin@sbicloud.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "CloudAdmin_Secure2024!",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "Ravi Prakash",
+        "label": "PERSON"
+      },
+      {
+        "entity": "RAVMAN789KL",
+        "label": "PAN"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The internal data leak from the RBI's payment system logs revealed sensitive bank account details and associated PII: The transaction involved user email 'payments@rbi.org.in' with password 'RBI Payments2024!'. This access level should only view aggregated numbers, but it exposed Mr. Sachin Patel's PAN card number for reference (SPCNRJ789XY) and his voter ID.",
+    "NER": [
+      {
+        "entity": "payments@rbi.org.in",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "RBI Payments2024!",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "Sachin Patel",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Analyzing the data breach at an insurance company's claims portal required access to sensitive credentials and policyholder details: The email 'claims@icareindia.com' was accessed with password 'Claims2024Secure!'. This revealed information for Mr. Rajesh Singh - his Aadhar number '123456789012', PAN card 'RJSSINGH890XY', and driver's license details (DL: DLUPRRJSN012) used for company vehicle access.",
+    "NER": [
+      {
+        "entity": "claims@icareindia.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "Claims2024Secure!",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "Rajesh Singh",
+        "label": "PERSON"
+      },
+      {
+        "entity": "DLUPRRJSN123456",
+        "label": "DRIVER_LICENSE"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The data exfiltration incident at the Public Accounts of India (PAI) server involved exposed credentials and high-risk PII: The login 'finance_user@pai.gov.in' was found with password 'Finance24Gov#' in logs. This access level should not have accessed sensitive employee details like Ms. Priya Singh's PAN card number, Aadhar number, Voter ID, or bank account details (ACC: SBI09876543) for internal transfers.",
+    "NER": [
+      {
+        "entity": "finance_user@pai.gov.in",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "Finance24Gov#",
+        "label": "PASSWORD"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "During the investigation of unsecured data sharing between government agencies, sensitive personal details were found: The email 'interagency_contact@aadharconnect.com' was linked to its password 'AadharDataShareAccess!'. This transaction involved Mr. Ravi Chandra's PAN card number for reference (RCHDRA01234P) and his bank account number used in cross-departmental transfers.",
+    "NER": [
+      {
+        "entity": "interagency_contact@aconnect.com",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "AadharDataShareAccess!",
+        "label": "PASSWORD"
+      },
+      {
+        "entity": "Ravi Chandra",
+        "label": "PERSON"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The forgotten login credentials for the tribal bank's online portal were left visible on a sticky note near the teller cage at MoundBuilder Financial Cooperative, where Ananya Sharma was attempting to resolve her account issue.",
+    "NER": [
+      {
+        "entity": "Ananya Sharma",
+        "label": "PERSON"
+      },
+      {
+        "entity": "MoundBuilder Financial Cooperative",
+        "label": "ORG"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "In the incident report regarding data exposure from the outdated community fund management system still in use at RedSand Corporate Trust, an internal memo mentioned that Rajiv Kumar's contact details were accidentally included.",
+    "NER": [
+      {
+        "entity": "Rajiv Kumar",
+        "label": "PERSON"
+      },
+      {
+        "entity": "RedSand Corporate Trust",
+        "label": "ORG"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "During the tech support session for tribal health insurance services, when verifying eligibility issues at Lakewood Healthcare Cooperative using system ID number 78452139K, support agent Priya Patel noted that Vinod Reddy's phone number +1-408-555-1234 was shared unscreened.",
+    "NER": [
+      {
+        "entity": "Priya Patel",
+        "label": "PERSON"
+      },
+      {
+        "entity": "Vinod Reddy",
+        "label": "PERSON"
+      },
+      {
+        "entity": "Lakewood Healthcare Cooperative",
+        "label": "ORG"
+      },
+      {
+        "entity": "+1-408-555-1234",
+        "label": "PHONE"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The audit trail for a suspected data leak at the regional agricultural cooperative bank, identified through log analysis of their mainframe system using account number 76983425K, showed that Deepak Singh's email address deepak.singh@tribaltech.org was present in debug logs.",
+    "NER": [
+      {
+        "entity": "Deepak Singh",
+        "label": "PERSON"
+      },
+      {
+        "entity": "deepak.singh@tribaltech.org",
+        "label": "EMAIL"
+      },
+      {
+        "entity": "76983425K",
+        "label": "ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Tribal Council Finance Department employee Meera Joshi discovered that her personal account number 123-45-6789 from a long-closed bank was referenced in an archived project file unrelated to financial operations.",
+    "NER": [
+      {
+        "entity": "Meera Joshi",
+        "label": "PERSON"
+      },
+      {
+        "entity": "Tribal Council Finance Department",
+        "label": "ORG"
+      },
+      {
+        "entity": "123-45-6789",
+        "label": "ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The investigation into the data breach at the community credit union, which compromised member accounts like 9021003456 from FirstTribal Credit Union in plain text chat logs while resolving a loan inquiry issue for resident Ananya Sharma.",
+    "NER": [
+      {
+        "entity": "Ananya Sharma",
+        "label": "PERSON"
+      },
+      {
+        "entity": "FirstTribal Credit Union",
+        "label": "ORG"
+      },
+      {
+        "entity": "9021003456",
+        "label": "ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "Upon reviewing the incident report for the forgotten password scenario involving user credentials from the tribal business systems forum, it was noted that the account details included a reference to phone number +1-786-555-0987.",
+    "NER": [
+      {
+        "entity": "+1-786-555-0987",
+        "label": "PHONE"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The security team flagged an email from the tribal administration help desk containing internal system logs that accidentally exposed the phone number +1-202-555-3456 associated with a community outreach coordinator.",
+    "NER": [
+      {
+        "entity": "+1-202-555-3456",
+        "label": "PHONE"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "In the process of troubleshooting connectivity issues for members at Sunstone Community Bank, tech support staff found that a log entry mentioned phone number +1-907-555-7890 in relation to an account inquiry.",
+    "NER": [
+      {
+        "entity": "+1-907-555-7890",
+        "label": "PHONE"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The forgotten password forum thread also contained a note that the user's account details were stored under ID number 24681357K, which should not have been visible during troubleshooting for their rural banking issue.",
+    "NER": [
+      {
+        "entity": "ID number 24681357K",
+        "label": "ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "During the investigation into the data leak at the tribal savings cooperative, a system diagnostic report listed phone numbers including +1-919-555-1122 for troubleshooting purposes in relation to account number 78346209K.",
+    "NER": [
+      {
+        "entity": "+1-919-555-1122",
+        "label": "PHONE"
+      },
+      {
+        "entity": "78346209K",
+        "label": "ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The forgotten login credentials incident at the tribal investment office involved user details from their system recovery database, where employee ID number 56789-TRIBAL was left exposed.",
+    "NER": [
+      {
+        "entity": "employee ID number 56789-TRIBAL",
+        "label": "ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "In the data breach investigation for the forgotten password system at the tribal business network, a log entry showed that user details including account number 12435678X were visible in plain text.",
+    "NER": [
+      {
+        "entity": "account number 12435678X",
+        "label": "ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The security log review for the forgotten password issue at FirstTribal Credit Union revealed that a sensitive phone number +1-801-555-9999 was mistakenly included in an error message.",
+    "NER": [
+      {
+        "entity": "+1-801-555-9999",
+        "label": "PHONE"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "While investigating the accidental data exposure from the tribal finance mainframe system, auditors noted that user information included phone number +1-650-555-4321 in a diagnostic report.",
+    "NER": [
+      {
+        "entity": "+1-650-555-4321",
+        "label": "PHONE"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The forgotten password help forum entry also mentioned that the user's tribal ID number 789564321 was part of the account recovery process.",
+    "NER": [
+      {
+        "entity": "tribal ID number 789564321",
+        "label": "ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "During the resolution of a connectivity issue at the tribal cooperative bank, system logs exposed phone number +1-410-555-6789 as part of standard diagnostic output.",
+    "NER": [
+      {
+        "entity": "+1-410-555-6789",
+        "label": "PHONE"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The investigation into the data leak incident at Sunstone Community Bank involved reviewing logs where forgotten password attempts for user Ananya Sharma were mistakenly associated with account number 321456789K.",
+    "NER": [
+      {
+        "entity": "Ananya Sharma",
+        "label": "PERSON"
+      },
+      {
+        "entity": "account number 321456789K",
+        "label": "ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "A support ticket regarding an account inquiry at the tribal business systems forum contained details that accidentally exposed phone number +1-704-555-1000.",
+    "NER": [
+      {
+        "entity": "+1-704-555-1000",
+        "label": "PHONE"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "The tribal council employee dealing with the forgotten password issue at Lakewood Healthcare Cooperative mentioned that user details were stored under ID number 987654321L in their records.",
+    "NER": [
+      {
+        "entity": "ID number 987654321L",
+        "label": "ACCOUNT"
+      }
+    ],
+    "has_pii": true
+  },
+  {
+    "text": "An internal system audit revealed unusual access patterns on the community funds database, raising concerns about potential data exposure during routine maintenance updates.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "The health services department experienced an incident where confidential membership records were inadvertently exported to a local storage device without applying any form of redaction for personal details.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "Security personnel identified suspicious activity related to the tribal infrastructure database, noting several attempts to retrieve unredacted information about specific project allocations within the last quarter.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "A data forensics team was assigned to examine a corrupted file from the social programs division; preliminary analysis showed personal identifiers were absent despite its internal context regarding community assistance funds disbursement.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "The incident response plan for unauthorized system access now includes mandatory redaction checks on all transferred files, particularly those containing information about vulnerable populations in our jurisdiction database.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "During the investigation into a potential breach of the tribal business registry, analysts recovered several unsecured documents that had included internal references to sensitive community data without any masking or removal.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "The forgotten login credentials incident at the tribal investment office involved user details from their system recovery database; these were eventually replaced but raised questions about standard security protocols for sensitive information handling.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "Following a report of suspicious transaction monitoring, officials reviewed logs indicating possible exposure of internal records related to resource allocation within the community services division.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "The tribal court system encountered an issue with unredacted case files during electronic transfer between jurisdictional offices; this data handling lapse required immediate attention and correction according to legal protocols for confidential information exchange.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "A significant incident regarding the forgotten login credentials at the tribal investment office was discovered during a routine system audit, highlighting potential vulnerabilities in how user access information is managed within their internal recovery database protocols.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "The community health center reported an anomaly concerning unverified patient data records being accessed without proper authorization, which may have occurred due to outdated security measures on the local electronic health system platform.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "An unexpected data breach affecting multiple departments was traced back to a misconfigured network access point at the reservation level, exposing internal server logs that contained sensitive information about tribal infrastructure management systems.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "During an investigation into unauthorized system access attempts related to gaming operations funds, auditors found evidence of incomplete record keeping within the tribe's proprietary financial ledger software suite for tracking revenues and expenditures.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "The tribal justice department flagged numerous suspicious activities linked to user account anomalies in their legal case management database, suggesting a possible pattern of weak authentication controls or accidental data exposure through shared login protocols across multiple cases.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "A critical issue arose when it was observed that certain confidential documentation stored on the tribe's central document repository server cluster became temporarily visible to accounts outside designated permissions during an unexpected system glitch triggered by high network traffic.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "The administration of the tribal social services department is currently reviewing internal data handling procedures after a series of incidents where user access logs indicated multiple failed authentication attempts that bypassed security measures, potentially revealing service request details for vulnerable populations to unauthenticated sources during brief window periods.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "During an audit focused on the tribe's land management information systems database performance and integrity, several inconsistencies were identified in how boundary records are updated across different operational levels, raising concerns about potential data leakage points within their proprietary mapping software architecture.",
+    "NER": [],
+    "has_pii": false
+  },
+  {
+    "text": "The tribal communications team encountered problems with unsecured endpoints transmitting internal messaging content during a recent server migration project for the reservation-wide notification system infrastructure, leading to flagged incidents in their network monitoring dashboard log files.",
+    "NER": [],
+    "has_pii": false
+  }
+]
