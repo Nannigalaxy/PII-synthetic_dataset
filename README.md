@@ -18,9 +18,9 @@ Each record in the dataset is a JSON object with the following fields:
 
 ```json
 {
-  "text": "UPI login from rahul.upi@oksbi with password 'UPIsecure2024#'.",
+  "text": "UPI login from rahul.upi@mail.com with password 'UPIsecure2024#'.",
   "NER": [
-    {"entity": "rahul.upi@oksbi", "label": "EMAIL"},
+    {"entity": "rahul.upi@mail.com", "label": "EMAIL"},
     {"entity": "UPIsecure2024#", "label": "PASSWORD"}
   ],
   "has_pii": true
